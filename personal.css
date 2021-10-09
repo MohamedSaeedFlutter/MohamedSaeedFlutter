@@ -1,0 +1,89 @@
+.container {
+    font-family: 'Montserrat', 'Lato', sans-serif;
+    /* background-color: rgb(141, 207, 233); */
+    box-sizing: border-box;
+    /*     display: inline; */
+    justify-content: center;
+    /*     display:grid; */
+    min-width: 100%;
+    padding-top: 60px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.card-body {
+    font-size: 28px;
+    color: darkslateblue;
+    text-shadow: 1px 1px 1px;
+    font-weight: 600;
+}
+
+.card {
+    /* padding-top: 36px; */
+    text-align: center;
+    max-height: 100%;
+    display: inline;
+}
+
+h1 {
+    font-size: 76px;
+    font-weight: 700;
+    display: flex;
+    text-align: start;
+    box-sizing: border-box;
+    color: orangered;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 600;
+    color: orange;
+}
+
+h3 {
+    font-size: 38px;
+    font-weight: 500;
+    color: olive;
+}
+
+
+/* Scroll page to top button  */
+
+#myBtn {
+    display: flex;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 5px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    width: 80px;
+    height: 80px;
+    background: rgba(0, 13, 200, 0.7);
+    line-height: 50px;
+    border-radius: 50%;
+    opacity: 0.8;
+    box-shadow: 0px 0px 5px 1px;
+    transition: opacity 0.3s;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+
+#myBtn:hover {
+    background-color: azure;
+    /* Add a dark-grey background on hover */
+}
